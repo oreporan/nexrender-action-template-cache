@@ -1,6 +1,6 @@
-import fs from "fs";
-import path from "path";
-import buildCacheName from "./buildCacheName";
+const fs = require("fs");
+const path = require("path");
+const buildCacheName = require("./buildCacheName");
 
 const postdownload = async (job, settings, action) => {
   const copySource = path.join(job.workpath, path.basename(job.template.src));

@@ -1,5 +1,5 @@
-import fs from "fs";
-import buildCacheName from "./buildCacheName";
+const fs = require("fs");
+const buildCacheName = require("./buildCacheName");
 
 const predownload = async (job, settings, action) => {
   if (job.template.src.startsWith("file://")) {

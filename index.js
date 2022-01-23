@@ -1,5 +1,5 @@
-import predownload from "./predownload";
-import postdownload from "./postdownload";
+const postdownload = require("./postdownload");
+const predownload = require("./predownload");
 
 const run = async (job, settings, action, type) => {
 
