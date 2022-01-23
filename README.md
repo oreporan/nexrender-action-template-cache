@@ -20,13 +20,13 @@
     "actions": {
         "predownload": [
             {
-                "module": "@nexrender/action-template-cache",
+                "module": "nexrender-action-template-cache",
                 "cacheDir": "~/project_cache"
             }
         ],
         "postdownload": [
             {
-                "module": "@nexrender/action-template-cache",
+                "module": "nexrender-action-template-cache",
                 "cacheDir": "~/project_cache"
             }
         ]
