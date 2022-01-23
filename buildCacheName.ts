@@ -1,8 +1,14 @@
 import path from "path";
 
-const buildCacheName = (originalFileName: string, originalWorkPath: string, cacheDirName: string = 'template_cache') => {
+const buildCacheName = (
+  originalFileName: string,
+  originalWorkPath: string,
+  cacheDirName: string
+) => {
   const fileName = path.basename(originalFileName);
-  return path.join(originalWorkPath, "..", cacheDirName, fileName);
+  return cacheDirName
+    ? path.join(cacheDirName, fileName)
+    : path.join(originalWorkPath, "..", "project_cache", fileName);
 };
 
 export default buildCacheName;
