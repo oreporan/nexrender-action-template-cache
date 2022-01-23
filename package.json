@@ -1,0 +1,33 @@
+{
+  "name": "nexrender-action-template-cache",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "Caches and tests to see if a cached template with the same name exists, if so, sets the template.src to the cached file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreporan/nexrender-action-template-cache.git"
+  },
+  "author": "Ore Poran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilskalns/nexrender-action-template-cache/issues"
+  },
+  "homepage": "https://github.com/pilskalns/nexrender-action-template-cache#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.5"
+  },
+  "keywords": [
+    "after",
+    "effects",
+    "nexrender",
+    "action",
+    "template",
+    "cache",
+    "archive"
+  ]
+}
