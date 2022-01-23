@@ -1,9 +1,9 @@
 import path from "path";
 
 const buildCacheName = (
-  originalFileName: string,
-  originalWorkPath: string,
-  cacheDirName: string
+  originalFileName,
+  originalWorkPath,
+  cacheDirName
 ) => {
   const fileName = path.basename(originalFileName);
   return cacheDirName
@@ -11,4 +11,4 @@ const buildCacheName = (
     : path.join(originalWorkPath, "..", "project_cache", fileName);
 };
 
-export default buildCacheName;
+module.exports = buildCacheName;

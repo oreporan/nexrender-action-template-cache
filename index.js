@@ -13,4 +13,4 @@ const run = async (job, settings, action, type) => {
   );
 };
 
-export default run;
+module.exports = run;

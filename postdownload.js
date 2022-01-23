@@ -24,4 +24,4 @@ const postdownload = async (job, settings, action) => {
   return;
 };
 
-export default postdownload;
+module.exports = postdownload;

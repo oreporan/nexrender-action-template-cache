@@ -27,4 +27,4 @@ const predownload = async (job, settings, action) => {
   return;
 };
 
-export default predownload;
+module.exports = predownload;
